@@ -1,0 +1,15 @@
+# HTML
+# Archive your static HTML application and save it with the build record.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+pool:
+  vmImage: 'Ubuntu 16.04'
+
+variables:
+  name: value
+  - name: foo
+    value: bar
+
+steps:
+- script echo $(name) $(foo)
